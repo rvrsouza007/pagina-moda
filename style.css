@@ -61,31 +61,39 @@ main > nav > div > ul {
 }
 main > nav> div > input {
     width: 400px;
+    height: 20px;
+    border: 1px solid rgba(155, 155, 155, 1);
 }
 
 .mensagem {
     height: 40px;
 }
-
 aside {
     padding-left: 40px;
     margin-top: 45px;
 }
-
 .nome > p{
     margin-bottom: 0;
 }
-
 .email > p{
     margin-bottom: 0;
 }
-
 .telefone > p{
     margin-bottom: 0;
 }
 
-.departamento > p{
-    margin-bottom: 0;
+ button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 555px;
+    top: 430px;
+}
+
+.departamento {
+    width: 538px;
+    height: 20px;
+    border: 1px solid rgba(155, 155, 155, 1);
 }
 
 .mensagem > input {
@@ -108,20 +116,17 @@ aside {
 
 .enviar {
     margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 16px
 }
 
-.enviar button {
-    padding: 0%;
-    border: 0px;
-}
-
-.enviar button > input {
+.enviar > input {
     background-color: rgb(194, 24, 91, 1);
     color: white;
     border:rgb(255, 255, 255) solid 2px;
     padding: 0px;
     width: 450px;
+    height: 24px;
+    border: 0px;
 }
 
 h1 {
